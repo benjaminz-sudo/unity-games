@@ -23,7 +23,7 @@ public class Crosshairfollow : MonoBehaviour
             // Place crosshair on the wall surface
             transform.position = lockedPos + hit.normal * 0.01f;
         }
-        if (Input.GetMouseButtonDown(0))
+        //if (Input.GetMouseButtonDown(0))
         {
             Quaternion rotation = Quaternion.identity;
             rotation.eulerAngles = new Vector3(90, 0, 0);
